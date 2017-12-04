@@ -7,7 +7,7 @@ s.license      = 'MIT'
 s.authors      = {'liuxiaodongLXD' => 'lxd2020nba@163.com'}
 s.platform     = :ios, '8.0'
 s.source       = {:git => 'https://github.com/liuxiaodongLXD/XDDrawChart.git', :tag => s.version}
-s.source_files = "XDDrawChart/header/*.{h,m}"
+s.source_files = "XDDrawChart/header/*.{h}"
 s.vendored_frameworks = "XDDrawChart/XDDraw.framework"
 s.requires_arc = true
 end
